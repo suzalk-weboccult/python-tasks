@@ -7,3 +7,6 @@
 
 ### 3. Questions & Answers
 <img style="width:49%; margin-top:10px;" src="./assets/que_ans.png">
+
+### 4. Pattern Problem
+<img style="width:49%; margin-top:10px;" src="./assets/pattern.png">
