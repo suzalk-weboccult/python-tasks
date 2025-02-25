@@ -15,10 +15,12 @@ def clear_screen():
 
 def parse_equation(equation: str) -> Tuple[float, str, float]:
     """Parse and validate the input equation."""
-    parts = equation.strip().split()
-    
-    if len(parts) != 3:
-        raise FormulaError("❌ Invalid equation format! Please use format: number operator number")
+    if " " in equation:
+        parts = equation.strip().split()
+    else:
+        parts=[]
+        for i in equation:
+            parts.append(i)
     
     try:
         num1 = float(parts[0])
